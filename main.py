@@ -19,5 +19,13 @@
 #print(f"0 элемент: {f_list[0]:+.2f}")
 #print(f"1 элемент: {f_list[1]:^20}")
 
-print(f"{'hellow':*^20}")
+#print(f"{'hellow':*^20}")
+
+#numbers = 'one,two,three'
+#print(numbers.split(','))
+
+#great_evening = ['cola', 'pizza', 'film']
+#print(f"great evening is {','.join(great_evening)}")
+
+
 
