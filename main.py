@@ -1,3 +1,3 @@
-print ("my name is Ilya")
-print ("im 21")
-print ("my surname is rakovich")
+age = input('Сколько тебе лет: 21')
+
+print(f"У нас разница в {abs(int(age) - 25)} год/лет")
