@@ -13,4 +13,11 @@
 
 #nickname = 'Bloha_V_SaRaffane'
 #if len(nickname) > 15:
-        print('Sorry, this nickname is too long')
+#        print('Sorry, this nickname is too long'
+
+#f_list = [1.124, 1.025]
+#print(f"0 элемент: {f_list[0]:+.2f}")
+#print(f"1 элемент: {f_list[1]:^20}")
+
+print(f"{'hellow':*^20}")
+
