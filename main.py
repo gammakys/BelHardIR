@@ -84,13 +84,13 @@
 #    if i == 237:
 #        break
 
-letters = 'UKsdSDSDSDscAdDFASdu'
-t = ''
-for i in letters:
-    if not i.isupper():
-        t += i
-
-print(t)
+#letters = 'UKsdSDSDSDscAdDFASdu'
+#t = ''
+#for i in letters:
+#    if not i.isupper():
+#        t += i
+#
+#print(t)
 # получается
 
 
