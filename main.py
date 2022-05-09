@@ -59,10 +59,19 @@
 
 #
 
-n = input('Введите целое число ', )
- def odd(0, n):
-    for i in range(0, n):
-        if i % 2 != 0:
-            return
+# lower_range = input('Введите нижний предел диапазона ', )
+# upper_range = input('Введите верхний предел диапазона ', )
+# x = []
+# i = []
+# def odd(x):
+#     if x % 2 != 0:
+#         for i in range(lower_range, upper_range):
+#             break
 
-print(a)
+
+# print(odd(x))
+
+# как обходить ошибку
+# unsupported operand type(s) for %: 'list' and 'int'
+
+###################################
