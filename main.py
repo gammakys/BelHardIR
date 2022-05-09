@@ -58,3 +58,11 @@
 # Задача 4
 
 #
+
+n = input('Введите целое число ', )
+ def odd(0, n):
+    for i in range(0, n):
+        if i % 2 != 0:
+            return
+
+print(a)
