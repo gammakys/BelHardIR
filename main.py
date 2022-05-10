@@ -91,26 +91,30 @@
 ###################
 
 # Задача 6
-input('Введите номер месяца ', )
+season_number1 = 'Зима'
+season_number2 = 'Весна'
+season_number3 = 'Лето'
+season_number4 = 'Осень'
 
 def month_to_season():
     while True:
         try:
             num = int(input("Введите номер месяца: "))
-            if num == [1,2,12]:
-                season_number == 'Зима'
+            if num == 1:
+                print('Зима')
+            elif num == 5:
+                season_number2 == 'Весна'
                 return num
-            elif num == [3,4,5]:
-                season_number == 'Весна'
+            elif num == 6:
+                season_number3 == 'Лето'
                 return num
-            elif num == [6,7,8]:
-                season_number == 'Лето'
+            elif num == 9:
+                season_number4 == 'Осень'
                 return num
-            elif num == [9, 10, 11]:
-                season_number == 'Осень'
-                return num
+            break
         except ValueError:
             print("Ошибка, Повторите ввод")
+
 
 season = month_to_season()
 print(f" y {season} у!")
