@@ -91,42 +91,42 @@
 ###################
 
 # Задача 6
-season_number1 = 'Зима'
-season_number2 = 'Весна'
-season_number3 = 'Лето'
-season_number4 = 'Осень'
+# season_number1 = 'Зима'
+# season_number2 = 'Весна'
+# season_number3 = 'Лето'
+# season_number4 = 'Осень'
 
 
-def month_to_season():
-    while True:
-        try:
-            if num == 1:
-                print ('Сейчас зима')
-            elif num == 2:
-                print ('Сейчас зима')
-            elif num == 12:
-                print ('Сейчас зима')
-            elif num == 3:
-                print ('Сейчас весна')
-            elif num == 4:
-                print ('Сейчас весна')
-            elif num == 5:
-                print ('Сейчас весна')
-            elif num == 6:
-                print ('Сейчас лето')
-            elif num == 7:
-                print ('Сейчас лето')
-            elif num == 8:
-                print ('Сейчас лето')
-            elif num == 9:
-                print ('Сейчас осень')
-            elif num == 10:
-                print ('Сейчас осень')
-            elif num == 11:
-                print ('Сейчас осень')
-            break
-        except ValueError:
-            print("Ошибка, Повторите ввод")
+# def month_to_season():
+#     while True:
+#         try:
+#             if num == 1:
+#                 print ('Сейчас зима')
+#             elif num == 2:
+#                 print ('Сейчас зима')
+#             elif num == 12:
+#                 print ('Сейчас зима')
+#             elif num == 3:
+#                 print ('Сейчас весна')
+#             elif num == 4:
+#                 print ('Сейчас весна')
+#             elif num == 5:
+#                 print ('Сейчас весна')
+#             elif num == 6:
+#                 print ('Сейчас лето')
+#             elif num == 7:
+#                 print ('Сейчас лето')
+#             elif num == 8:
+#                 print ('Сейчас лето')
+#             elif num == 9:
+#                 print ('Сейчас осень')
+#             elif num == 10:
+#                 print ('Сейчас осень')
+#             elif num == 11:
+#                 print ('Сейчас осень')
+#             break
+#         except ValueError:
+#             print("Ошибка, Повторите ввод")
 
 
 num = int(input("Введите номер месяца: "))
