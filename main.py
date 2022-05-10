@@ -75,3 +75,46 @@
 # unsupported operand type(s) for %: 'list' and 'int'
 
 ###################################
+
+# Задача 5
+
+# x = []
+# r = range(20)
+# y = list(reversed(x))
+# for i in r:
+#     if i % 2 == 0 and i % 4 != 0:
+#         x.extend([i])
+#
+#
+# print(y)
+
+###################
+
+# Задача 6
+input('Введите номер месяца ', )
+
+def month_to_season():
+    while True:
+        try:
+            num = int(input("Введите номер месяца: "))
+            if num == [1,2,12]:
+                season_number == 'Зима'
+                return num
+            elif num == [3,4,5]:
+                season_number == 'Весна'
+                return num
+            elif num == [6,7,8]:
+                season_number == 'Лето'
+                return num
+            elif num == [9, 10, 11]:
+                season_number == 'Осень'
+                return num
+        except ValueError:
+            print("Ошибка, Повторите ввод")
+
+season = month_to_season()
+print(f" y {season} у!")
+
+print(month_to_season())
+
+### не понял как сделать.
