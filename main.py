@@ -59,17 +59,17 @@
 
 #
 
-# lower_range = input('Введите нижний предел диапазона ', )
-# upper_range = input('Введите верхний предел диапазона ', )
-# x = []
-# i = []
-# def odd(x):
-#     if x % 2 != 0:
-#         for i in range(lower_range, upper_range):
-#             break
+lower_range = input('Введите нижний предел диапазона ', )
+upper_range = input('Введите верхний предел диапазона ', )
+x = []
+i = []
+def odd(x):
+    if x % 2 != 0:
+        for i in range(lower_range, upper_range):
+            break
 
 
-# print(odd(x))
+print(odd(x))
 
 # как обходить ошибку
 # unsupported operand type(s) for %: 'list' and 'int'
@@ -129,5 +129,5 @@
 #             print("Ошибка, Повторите ввод")
 
 
-num = int(input("Введите номер месяца: "))
-print(month_to_season())
+# num = int(input("Введите номер месяца: "))
+# print(month_to_season())
