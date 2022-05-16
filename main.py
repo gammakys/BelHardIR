@@ -29,3 +29,11 @@ class Circle(Shape):
     def find_perimeter(get_perimeter):
         return
 
+class Rectangle:
+    a = float
+    b = float
+
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
