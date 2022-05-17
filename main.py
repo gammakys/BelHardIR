@@ -46,4 +46,14 @@
 #
 # ##################################
 
+class Animal:
+    name = str
+
+    def __init__(self, name):
+        return
+
+    @abstractmethod
+    def says(self):
+        pass
+
 
