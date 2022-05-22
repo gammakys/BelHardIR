@@ -42,7 +42,7 @@
 # GROUP BY name
 # HAVING COUNT(name) > 1;
 
-14
+# 14
 
 # SELECT town_to
 # FROM Trip
