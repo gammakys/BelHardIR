@@ -27,3 +27,24 @@
 # SELECT name
 # FROM Passenger
 # ORDER BY LENGTH(name) DESC LIMIT 1
+
+# 12
+
+
+# SELECT trip, COUNT(Passenger) as count
+# FROM Pass_in_Trip
+# GROUP BY Trip
+
+# 13
+
+# SELECT name
+# FROM Passenger
+# GROUP BY name
+# HAVING COUNT(name) > 1;
+
+14
+
+# SELECT town_to
+# FROM Trip
+# JOIN Passenger
+# as
